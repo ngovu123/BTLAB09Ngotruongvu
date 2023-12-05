@@ -48,6 +48,21 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, BTTimeSection.class);
         startActivity(intent);
     }
+    public void bttabselector(View view){
+        Toast.makeText(getApplicationContext(), "bttabselector", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, TabSelectorActivity.class);
+        startActivity(intent);
+    }
+    public void btcontextmenu1(View view){
+        Toast.makeText(getApplicationContext(), "btcontextmenu1", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, contextmenu1.class);
+        startActivity(intent);
+    }
+    public void btcontextmenu2(View view){
+        Toast.makeText(getApplicationContext(), "btcontextmenu2", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, Contextmenu2.class);
+        startActivity(intent);
+    }
 
 
 }

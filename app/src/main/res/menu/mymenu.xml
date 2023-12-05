@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuxemds"
+        android:title="Xem danh sach">
+        <menu>
+            <item
+                android:id="@+id/mnuxemdssv"
+                android:title="Sinh vien"/>
+            <item
+                android:id="@+id/mnuxemdslop"
+                android:title="Lớp học"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mnusuads"
+        android:title="Sua danh sach">
+    </item>
+    <item
+        android:id="@+id/mnuxoads"
+        android:title="Xoa danh sach">
+    </item>
+    <item
+        android:id="@+id/mnuinbaocao"
+        android:title="In báo cao">
+    </item>
+    <item
+        android:id="@+id/mnutrogiup"
+        android:title="Tro giup">
+    </item>
+</menu>

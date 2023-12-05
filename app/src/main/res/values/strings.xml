@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BTLAB09-Ngotruongvu</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
 </resources>

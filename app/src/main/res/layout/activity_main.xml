@@ -58,5 +58,26 @@
         android:text="Timesection"
         android:id="@+id/btnbttimesection"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bttabselector"
+        android:text="Bttabselector"
+        android:id="@+id/btnbttabselector"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btcontextmenu1"
+        android:text="BT Context menu trường hợp 1"
+        android:id="@+id/btnbtcontextmenu1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btcontextmenu2"
+        android:text="BT Context menu trường hợp 2"
+        android:id="@+id/btnbtcontextmenu2"
+        />
 
 </LinearLayout>
